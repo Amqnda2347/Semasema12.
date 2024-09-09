@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path Portal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EDE7F6;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #5E35B1;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #5E35B1;
+            font-weight: 500;
+        }
+        .btn {
+            background-color: #5E35B1;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            background-color: white;
+            position: relative;
+        }
+        .hero img {
+            width: 300px;
+            margin-left: 50px;
+        }
+        .content {
+            max-width: 600px;
+        }
+        .content h1 {
+            font-size: 36px;
+            color: #5E35B1;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+        }
+        .cta-buttons button {
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: 1px solid #5E35B1;
+            cursor: pointer;
+            background-color: white;
+            color: #5E35B1;
+        }
+        .background-shapes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .circle {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(94, 53, 177, 0.1);
+        }
+        .circle-1 {
+            width: 250px;
+            height: 250px;
+            top: 50px;
+            left: -100px;
+        }
+        .circle-2 {
+            width: 300px;
+            height: 300px;
+            top: 150px;
+            right: -100px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">CareerPath Portal</div>
+    <nav>
+        <a href="#">Jobs</a>
+        <a href="#">Courses</a>
+        <a href="#">Volunteer Jobs</a>
+        <a href="#">Hire Talent</a>
+        <a href="#">Career Resources</a>
+    </nav>
+    <div>
+        <button class="btn">Log In</button>
+        <button class="btn">Get Started</button>
+    </div>
+</header>
+
+<div class="hero">
+    <div class="content">
+        <h1>Connect with Top Talent and Unlock Your Career Potential</h1>
+        <p>Explore jobs, sharpen your skills, and gain hands-on experience with internships and more all in one hub.</p>
+        <div class="cta-buttons">
+            <button>For Job Seeker</button>
+            <button>For Employer</button>
+        </div>
+    </div>
+    <img src="https://via.placeholder.com/300" alt="Mobile User">
+    <div class="background-shapes">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+</div>
+
+</body>
+</html>
